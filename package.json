@@ -1,0 +1,29 @@
+{
+  "name": "spacex_stats",
+  "version": "1.0.0",
+  "description": "App that list SpaceX stats",
+  "main": "server.js",
+  "scripts": {
+    "star": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamalabd/graphleQl-tut.git"
+  },
+  "author": "Jamal Abdul-majid",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamalabd/graphleQl-tut/issues"
+  },
+  "homepage": "https://github.com/jamalabd/graphleQl-tut#readme",
+  "dependencies": {
+    "axios": "^0.26.0",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
